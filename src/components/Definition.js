@@ -1,13 +1,14 @@
-import React, { useState } from "react";
-import "./Definition.css"
+import React from "react";
+import "./Definition.css";
 
-export default function Definition(props) {
-    const [status, setStatus] = useState(-1)
-
+export default function Definition({ term, definition, isActive, onClick, searchKey }) {
     return (
-        <div onClick={() => setStatus(status * -1)} className={status === 1? "activated definition-card" : "inactive definition-card"}>
-            <h1 className="definition-term">{props.term}</h1>
-            <p className="definition-def">{props.definition}</p>
+        <div
+            onClick={onClick}
+            className={isActive ? "activated definition-card" : "inactive definition-card"}
+        >
+            <h1 className="definition-term">{term}</h1>
+            <p className="definition-def">{definition}</p>
         </div>
     );
 }

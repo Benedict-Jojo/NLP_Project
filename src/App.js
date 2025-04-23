@@ -7,6 +7,7 @@ import { useState } from 'react'
 import { Item } from './components/MenuItem'
 import ItemCard from './components/ItemCard'
 import Stocks from './Stocks.json'
+import InvestingIdeas from './components/InvestingIdeas'
 import SurveyQuestion from './components/SurveyQuestion'
 
 
@@ -77,6 +78,13 @@ function App() {
             collapsed={menuState}
             label="Stocks"
           />
+          <Item
+          clickFunc={() => setTabIndex(4)}
+          active={tabIndex === 4 ? 'tab active-tab' : 'tab inactive-tab'}
+          icon={SuggestionsIcon}  // you can swap for a lightbulb icon
+          collapsed={menuState}
+          label="Investing Ideas"
+        />
         </div>
         <Item
           clickFunc={() => setTabIndex(3)}
@@ -131,7 +139,9 @@ function App() {
           <ItemCard searchKey={Stocks[18].ticker} file={VSMPX} ticker={Stocks[18].ticker} name={Stocks[18].name} price={Stocks[18].price} change={Stocks[18].change}/>
         </GridContainer>
       </div>
-
+      <div className={tabIndex === 4 ? 'content-div' : 'hidden'}>
+        <InvestingIdeas />
+      </div>
       <div className={tabIndex === 3 ? 'content-div' : 'hidden'}>
         <GridContainer noSearch={true} flexStyle="col" placeholder="Your mom">
             <SurveyQuestion question="How comfortable are you with risk?" leftLabel="Not Comfortable" rightLabel="Very Comfortable"/>

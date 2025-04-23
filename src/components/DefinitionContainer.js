@@ -1,18 +1,38 @@
-import React from "react";
-import "./DefinitionContainer.css"
-import { useState } from "react";
+import React, { useState } from "react";
+import "./DefinitionContainer.css";
+import Definition from "./Definition";
 
-export default function DefinitionContainer(props) {
-    const [searchTerm, setSearchTerm] = useState("")
+export default function DefinitionContainer({ children, placeholder, noSearch }) {
+    const [searchTerm, setSearchTerm] = useState("");
+    const [activeIndex, setActiveIndex] = useState(null);
 
-    let searchBar = <input onChange={(event) => {setSearchTerm(event.target.value)}} className="search" type="text" placeholder={"Search for " + props.placeholder + "..."}></input>
+    const searchBar = (
+        <input
+            onChange={(event) => setSearchTerm(event.target.value)}
+            className="search"
+            type="text"
+            placeholder={"Search for " + placeholder + "..."}
+        />
+    );
+
+    const processedChildren = (noSearch ? children : children.filter(
+        (item) =>
+            item.props.searchKey &&
+            item.props.searchKey.toLowerCase().includes(searchTerm.toLowerCase())
+    )).map((child, index) => {
+        return React.cloneElement(child, {
+            isActive: activeIndex === index,
+            onClick: () => setActiveIndex(activeIndex === index ? null : index),
+            key: index
+        });
+    });
 
     return (
         <div className="definition-container">
-            {props.noSearch? "" : searchBar}
+            {noSearch ? null : searchBar}
             <div className="def-container">
-                {props.noSearch? props.children : props.children.filter((item) => item.props.searchKey.toLowerCase().includes(searchTerm.toLowerCase()))}
+                {processedChildren}
             </div>
         </div>
-    )
+    );
 }
