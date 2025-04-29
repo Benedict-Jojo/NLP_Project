@@ -7,7 +7,7 @@ import Sentiment from 'sentiment';
 // Install these if you haven't:
 // npm install axios sentiment framer-motion
 
-const API_KEY = '728c92ad27d6b9a935733655f3e7f562'; // GNews key
+const API_KEY = 'API KEY HERE'; // GNews key
 
 export default function SentimentAnalyzer({ stockName = "Tesla" }) {
   const [sentimentScore, setSentimentScore] = useState(null);
