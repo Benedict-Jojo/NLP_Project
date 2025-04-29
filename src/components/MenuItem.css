@@ -1,0 +1,62 @@
+.tab {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    align-items: center;
+    gap: 0.5rem;
+    
+    width: auto;
+    padding: 0.6rem;
+}
+
+.inactive-tab:hover {
+    background-color: var(--color-Tpurple);
+
+    border-radius: 0.5rem;
+    color: var(--color-purple);
+
+    cursor: pointer;
+}
+
+.active-tab {
+    background-color: var(--color-purple);
+    color: var(--color-white);
+
+    border-radius: 0.5rem;
+}
+
+
+
+.item-icon {
+    height: 32px;
+    width: 32px;
+}
+
+.hidden {
+    display: none;
+}
+
+.item-label {
+    font-size: 24px;
+    font-weight: 400;
+
+    margin: 0rem;
+}
+
+.sub-item-label {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    gap: 0.5rem;
+    
+    padding: 0.5rem 4rem;
+}
+
+.sub-item-label {
+    font-size: 20px;
+    font-weight: 350;
+
+    margin: 0rem;
+}

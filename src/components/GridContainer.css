@@ -1,0 +1,46 @@
+.outer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+
+    overflow: hidden;
+
+    gap: 0.5rem;
+}
+
+.content {
+    /* padding-top: 4rem; */
+    overflow-y: auto;
+
+    padding-inline: 1rem;
+    box-sizing: border-box;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    gap: 0.5rem;
+    justify-content: stretch;
+}
+
+.search {
+    position: sticky;
+
+    padding: 1rem;
+    top: 0.1rem;
+
+    color: var(--color-white);
+    background-color: var(--color-Twhite);
+    backdrop-filter: blur(10px);
+    
+    font-size: 20px;
+    border: 0rem;
+    border-radius: 1rem;
+}
+
+.search:active, .search:focus {
+    border: 0rem;
+    outline: 0rem;
+}

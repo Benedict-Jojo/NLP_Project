@@ -1,36 +1,27 @@
-# NLP_Project: Stock Sentiment Investment Analyzer
-Created for working on NLP project (CS 6320)
+=======
+# All In One Invest (HackUTD 2022)
+<span>
+<img style="height: 2rem;" src="https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react"/>
+<img style="height: 2rem;" src="https://img.shields.io/badge/JavaScript-4D4D4D?style=for-the-badge&logo=javascript"/>
+</span>
 
-**GOAL**
+All-in-One Invest is a project to help new investors get started. Search for stocks, view value graphs, and take a survey for personalized investment recommendations based on risk tolerance. Get educated and make informed decisions with your money. [Entry to HackUTD 2022](https://devpost.com/software/temp-cs9fl2#updates).
 
+<section>
+  <img style="width: 45%;" src="https://github.com/Waseem-Alkasbutrus/HackUTD2022-Remastered/blob/master/Education.png?raw=true" />
+  <img style="width: 45%;" src="https://github.com/Waseem-Alkasbutrus/HackUTD2022-Remastered/blob/master/All%20in%20One%20Invest.png?raw=true" />
+</section>
 
-The overall focus of this project is to amplify stock market predictions. To achieve this, we will implement a natural language processing-driven sentiment analysis in combination with traditional financial forecasting. This system would provide more information for a user to confidently decide on which stocks to invest. Utilizing public sentiment from social media and 
-previous stock data will reinforce the investment decision-making tool.
+### Try It Yourself
+Clone this repository to your computer
+```bash
+git clone https://github.com/Waseem-Alkasbutrus/HackUTD2022-All-in-One-Invest.git
+```
 
-**Scope**
-
-
-• Build an NLP model to classify stock-related news and social media posts as Positive, Neutral, or Negative.
-
-
-• Use historical stock price data from Yahoo Finance to build a baseline price prediction model (Linear Regression, LSTMs, or Random Forest).
-
-
-• Combine the sentiment score with price trends to generate a final "Investment Sentiment Score" (Buy, Hold, or Sell).
-
-
-• Display results via a simple dashboard (e.g., Streamlit or Flask-based interface).
-
-
-
-
-**Data Sources**
-
-
-• Yahoo Finance API
-
-
-• Google News API, Alpha Vantage
-
-
-• Twitter API (Tweepy), Reddit API (Pushshift)
+Dwnload dependencies and start local server
+```bash
+npm install
+npm start
+```
+A browser tab will open displaying the project
+>>>>>>> fc1a269110ba313771ca8f40b43a287880d36d23
