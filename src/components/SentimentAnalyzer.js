@@ -181,7 +181,7 @@ export default function SentimentAnalyzer({ stockName = "Tesla" }) {
             <ul style={{ paddingLeft: "20px", marginTop: "8px" }}>
               {articles.slice(0, 3).map((article, i) => (
                 <li key={i} style={{ marginBottom: "10px", fontSize: "0.9rem" }}>
-                  <a href={article.url} target="_blank" rel="noopener noreferrer" style={{ color: "#0056b3", textDecoration: "none",fontWeight: "700" }}>
+                  <a href={article.url} target="_blank" rel="noopener noreferrer" style={{ color: "#66ccff", textDecoration: "none",fontWeight: "700" }}>
                     {article.title}
                   </a>
                 </li>
