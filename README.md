@@ -1,27 +1,21 @@
-=======
-# All In One Invest (HackUTD 2022)
-<span>
-<img style="height: 2rem;" src="https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react"/>
-<img style="height: 2rem;" src="https://img.shields.io/badge/JavaScript-4D4D4D?style=for-the-badge&logo=javascript"/>
-</span>
+# Stock Sentiment Analyzer 🔍📈
 
-All-in-One Invest is a project to help new investors get started. Search for stocks, view value graphs, and take a survey for personalized investment recommendations based on risk tolerance. Get educated and make informed decisions with your money. [Entry to HackUTD 2022](https://devpost.com/software/temp-cs9fl2#updates).
+A web-based application that enhances traditional stock analysis with real-time news sentiment using custom Natural Language Processing (NLP). This project was developed as part of an NLP course to explore the impact of public sentiment on market behavior.
 
-<section>
-  <img style="width: 45%;" src="https://github.com/Waseem-Alkasbutrus/HackUTD2022-Remastered/blob/master/Education.png?raw=true" />
-  <img style="width: 45%;" src="https://github.com/Waseem-Alkasbutrus/HackUTD2022-Remastered/blob/master/All%20in%20One%20Invest.png?raw=true" />
-</section>
+---
 
-### Try It Yourself
-Clone this repository to your computer
-```bash
-git clone https://github.com/Waseem-Alkasbutrus/HackUTD2022-All-in-One-Invest.git
-```
+##  Overview
 
-Dwnload dependencies and start local server
-```bash
-npm install
-npm start
-```
-A browser tab will open displaying the project
->>>>>>> fc1a269110ba313771ca8f40b43a287880d36d23
+This tool visualizes key stock metrics (like closing price, SMA, EMA, and Bollinger Bands) and augments them with a custom-built sentiment engine that analyzes recent news articles using the GNews API. The result is an interactive dashboard that empowers users to make more informed investment decisions by combining historical trends with public opinion.
+
+---
+
+##  Features
+
+-  Interactive stock charts with technical indicators
+-  Custom sentiment scoring engine built using financial keywords and trigram/bigram analysis
+-  Live news integration using the GNews API
+-  Plain-language investment suggestions: Good, Neutral, or Bad to Invest
+-  Auto-refreshes sentiment data every 10 minutes
+-  Responsive, animated UI built with React.js and Recharts
+
