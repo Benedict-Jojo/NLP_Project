@@ -1,0 +1,72 @@
+.card-div {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  gap: 1rem;
+
+  border: 1px solid var(--color-Twhite);
+  border-radius: 1rem;
+
+  padding: 0.2rem 1rem;
+}
+
+.card-div:hover {
+  cursor: pointer;
+}
+
+.card-div:hover:not(.active) {
+  background-color: var(--color-Tpurple);
+}
+
+.active {
+  border: 2px solid var(--color-purple);
+  background-color: var(--color-Tpurple);
+}
+
+.graph {
+  width: auto;
+}
+
+.hide {
+  display: none;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0.2rem 1rem;
+}
+
+.ticker {
+  text-align: left;
+  font-size: 14px;
+  min-width: 5rem;
+}
+
+.name {
+  text-align: left;
+  min-width: 30rem;
+}
+
+.price {
+  text-align: left;
+  min-width: 5rem;
+}
+
+.change {
+  text-align: right;
+  min-width: 5rem;
+}
+
+.positive {
+  color: rgb(78, 255, 78);
+}
+
+.negative {
+  color: hwb(0 28% 0%);
+}

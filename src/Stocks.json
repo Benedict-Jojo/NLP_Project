@@ -1,0 +1,114 @@
+[{
+    "ticker": "APPL",
+    "name": "Apple Inc",
+    "price": 149.70,
+    "change": 1.93
+},
+{
+    "ticker": "AMZN",
+    "name": "Amazon Inc",
+    "price": 100.70,
+    "change": 4.31
+},
+{
+    "ticker": "FXAIX",
+    "name": "Fidelity 500 Index",
+    "price": 138.72,
+    "change":0.92
+},
+{
+    "ticker": "GOOGL",
+    "name": "Alphabet Inc",
+    "price": 96.41,
+    "change": 2.72
+},
+{
+    "ticker": "INTC",
+    "name": "Intel Inc",
+    "price": 30.43,
+    "change": 2.25
+},
+{
+    "ticker": "JEPI",
+    "name": "JPMorgan Equity Income Fund ETF",
+    "price": 50.94,
+    "change": -0.53
+},
+{
+    "ticker": "JNJ",
+    "name": "Johnson and Johnson Inc",
+    "price": 169.25,
+    "change": -2.99
+},
+{
+    "ticker": "JPST",
+    "name": "JPMorgan Ultra-Short ETF",
+    "price": 50.10,
+    "change": 0.04
+},
+{
+    "ticker": "MA",
+    "name": "Mastercard Inc",
+    "price": 339.29,
+    "change": 0.60
+},
+{
+    "ticker": "META",
+    "name": "Meta Platforms Inc",
+    "price": 113.02,
+    "change": 1.03
+},
+{
+    "ticker": "MSFT",
+    "name": "Microscoft Inc",
+    "price": 247.11,
+    "change": 1.70
+},
+{
+    "ticker": "NVDA",
+    "name": "NVidia Inc",
+    "price": 163.27,
+    "change": 3.66
+},
+{
+    "ticker": "QQQ",
+    "name": "Invesco QQQ Trust",
+    "price": 288.03,
+    "change": 1.81
+},
+{
+    "ticker": "SPY",
+    "name": "Spyder S&P Trust",
+    "price": 398.51,
+    "change": 0.97
+},
+{
+    "ticker": "TSLA",
+    "name": "Tesla Inc",
+    "price": 195.97,
+    "change": 2.75
+},
+{
+    "ticker": "V",
+    "name": "Visa Inc",
+    "price": 205.00,
+    "change": 0.96
+},
+{
+    "ticker": "VFIAX",
+    "name": "Vanguard 500 Index Admiral",
+    "price": 369.01,
+    "change": 0.92
+},
+{
+    "ticker": "VOO",
+    "name": "Vanguard 500 Index",
+    "price": 366.16,
+    "change": 0.96
+},
+{
+    "ticker": "VSMPX",
+    "name": "Vanguard Total Stock Market Index",
+    "price": 149.70,
+    "change": 1.93
+}]
