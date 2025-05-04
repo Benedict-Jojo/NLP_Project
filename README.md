@@ -1,4 +1,4 @@
-# Stock Sentiment Analyzer 🔍📈
+# Stock Sentiment Investment Analyzer 
 
 A web-based application that enhances traditional stock analysis with real-time news sentiment using custom Natural Language Processing (NLP). This project was developed as part of an NLP course to explore the impact of public sentiment on market behavior.
 
