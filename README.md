@@ -19,3 +19,5 @@ This tool visualizes key stock metrics (like closing price, SMA, EMA, and Bollin
 -  Auto-refreshes sentiment data every 10 minutes
 -  Responsive, animated UI built with React.js and Recharts
 
+##  YouTube Video Link
+https://youtu.be/GEjbUAszQBg
